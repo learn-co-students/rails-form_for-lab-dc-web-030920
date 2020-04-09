@@ -1,0 +1,7 @@
+<h1> Here is the student: </h1>
+<h3><%= @student.to_s %>   </h3>
+
+
+<div> <%= link_to "Edit this Student", edit_student_path(@student.id) %></div>
+<div><%= link_to "Create a New Student", new_student_path %></div>
+<div><%= link_to "return to index", students_path %></div>
