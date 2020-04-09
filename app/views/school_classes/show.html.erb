@@ -1,0 +1,5 @@
+<h1>Class: <%= @schoolclass.title %></h1>
+<h1>Room: <%= @schoolclass.room_number%></h1>
+
+<div> <%= link_to "Edit this class", edit_school_class_path(@schoolclass.id) %> </div>
+<div> <%= link_to "Create a New Class", new_school_class_path %> </div>
