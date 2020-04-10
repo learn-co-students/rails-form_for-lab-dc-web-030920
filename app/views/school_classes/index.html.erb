@@ -1,0 +1,6 @@
+<h1>School Classes Index</h1>
+
+
+<% @school_classes.each do |school_class| %>
+    <div>Class title: <%=school_class.title%> | Room number: <%=school_class.room_number%></div>
+<% end %>
